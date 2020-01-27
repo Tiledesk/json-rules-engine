@@ -11,6 +11,8 @@ Operators.push(new Operator('notIn', (a, b) => a.indexOf(b) === -1))
 Operators.push(new Operator('contains', (a, b) => a.indexOf(b) > -1, Array.isArray))
 Operators.push(new Operator('doesNotContain', (a, b) => a.indexOf(b) === -1, Array.isArray))
 
+Operators.push(new Operators('hasOwnProperty', (a, b) => a.hasOwnProperty(b)))
+
 function numberValidator (factValue) {
   return Number.parseFloat(factValue).toString() !== 'NaN'
 }
