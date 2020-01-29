@@ -13,6 +13,7 @@ Operators.push(new Operator('doesNotContain', (a, b) => a.indexOf(b) === -1, Arr
 
 
 Operators.push(new Operator('hasOwnProperty', (a, b) => a.hasOwnProperty(b)))
+Operators.push(new Operator('notHasOwnProperty', (a, b) => !a.hasOwnProperty(b)))
 
 function numberValidator (factValue) {
   return Number.parseFloat(factValue).toString() !== 'NaN'
