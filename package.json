@@ -1,7 +1,7 @@
 {
-  "name": "json-rules-engine",
+  "name": "@tiledesk/tiledesk-json-rules-engine",
   "version": "4.0.0",
-  "description": "Rules Engine expressed in simple json",
+  "description": "Tiledesk Rules Engine expressed in simple json",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha && npm run lint --silent",
