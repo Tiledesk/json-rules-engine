@@ -1,6 +1,6 @@
 {
   "name": "@tiledesk/tiledesk-json-rules-engine",
-  "version": "4.0.1",
+  "version": "4.0.3",
   "description": "Tiledesk Rules Engine expressed in simple json",
   "main": "dist/index.js",
   "scripts": {
